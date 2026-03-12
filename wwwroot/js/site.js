@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿new Typed("#typed", {
 
-// Write your JavaScript code.
+    strings: [
+        "Robôs de combate",
+        "Automação inteligente",
+        "Tecnologia do futuro",
+    ],
+
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+
+});

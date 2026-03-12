@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/Home/Index">🛒 Minha Loja</a>
+                <a class="navbar-brand" href="/Home/Index"><span class="brand">🛒 Minha Loja</span></a>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         @if (Context.Session.GetString("UsuarioNome") != null)
@@ -52,10 +52,10 @@
                         }
                         else
                         {
-                            <li class="nav-item">
+                            <li class="btn btn-outline-light btn-lg">
                                 <a class="nav-link" href="/Usuario/Login">Login</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="btn btn-outline-light btn-lg">
                                 <a class="nav-link" href="/Usuario/Cadastrar">Cadastrar</a>
                             </li>
                         }
@@ -72,9 +72,10 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - Esse_deu_certo_MVC_Exemplo - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <span class="brand">&copy; 2026 - RoboForge -</span> <a asp-area="" asp-controller="Home" asp-action="Privacy" class="btn btn-outline-light btn-lg">Privacy</a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

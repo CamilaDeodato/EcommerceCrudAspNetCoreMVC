@@ -2,14 +2,14 @@
     ViewBag.Title = "Login";
 }
 <div class="text-center">
-    <h2>Login</h2>
+    <h2><span class="brand">Login</span></h2>
     <form method="post">
         <input type="text" name="email" placeholder="E-mail" /><br />
         <input type="password" name="senha" placeholder="Senha" /><br />
-        <button type="submit" class="btn btn-success">Entrar</button>
-        <a href="/Home/Index" class="btn btn-secondary">Voltar</a>
-        <p>Não tem conta? Faça seu cadastro agora mesmo. 😊</p>
-        <a href="/Usuario/Cadastrar" class="btn btn-secondary">Cadastrar</a>
+        <button type="submit" class="btn btn-outline-light btn-lg">Entrar</button>
+        <a href="/Home/Index" class="btn btn-outline-light btn-lg">Voltar</a>
+        <p><span class="brand">Não tem conta? Faça seu cadastro agora mesmo. 😊</span></p>
+        <a href="/Usuario/Cadastrar" class="btn btn-outline-light btn-lg">Cadastrar</a>
     </form>
     <p>@ViewBag.Mensagem</p>
 </div>

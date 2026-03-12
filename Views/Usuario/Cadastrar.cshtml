@@ -4,15 +4,15 @@
 
 
 <div class="text-center">
-    <h2>Cadastrar Usuário</h2>
+    <h2><span class="brand">Cadastrar Usuário</span></h2>
     <form method="post">
         <input name="Nome" placeholder="Nome" /><br />
         <input name="Email" placeholder="E-mail" /><br />
         <input name="Senha" placeholder="Senha" type="password" /><br />
-        <button type="submit" class="btn btn-success">Salvar</button>
-        <a href="/Home/Index" class="btn btn-secondary">Voltar</a>
-        <p>Já tem cadastro? Então faça o login e aproveite nosso catálogo de produtos. 😊</p>
-        <a href="/Usuario/Login" class="btn btn-primary">Login</a>
+        <button type="submit" class="btn btn-outline-light btn-lg">Salvar</button>
+        <a href="/Home/Index" class="btn btn-outline-light btn-lg">Voltar</a>
+        <p><span class="brand">Já tem cadastro? Então faça o login e aproveite nosso catálogo de produtos. 😊</span></p>
+        <a href="/Usuario/Login" class="btn btn-outline-light btn-lg">Login</a>
     </form>
     <p>@ViewBag.Mensagem</p>
 </div>
