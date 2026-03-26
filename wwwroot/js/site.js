@@ -1,9 +1,9 @@
 ﻿new Typed("#typed", {
 
     strings: [
-        "Robôs de combate",
-        "Automação inteligente",
-        "Tecnologia do futuro",
+        "Proteção a vida marinha",
+        "Cuidar do ambiente",
+        "Reduzir, Reutilizar e Reciclar",
     ],
 
     typeSpeed: 50,
